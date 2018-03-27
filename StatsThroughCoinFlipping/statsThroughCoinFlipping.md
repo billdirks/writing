@@ -47,7 +47,7 @@ __Pr(H=h, T=t)__: This is our probability of getting h heads and t tails indepen
 
 Now, Pr(P=p|H=h, T=t), is called the *posterior distribution* since it is our guess at the distribution of the parameter after we observe our data, the coin flips. Pr(P=p) is call the *prior distribution* since it is our guess at the distribution of the parameter before the coin flips. Using this terminology we can say:
 
-    Posterior Distribution &#8733; Likelihood function * Prior Distribution
+    Posterior Distribution is proportional to the Likelihood function * Prior Distribution
 
 It would be nice if Pr(P=p|H=h, T=t) and Pr(P=p) had the same functional form with different parameter values. For example, it would be nice if Pr(P=p|H=h, T=t) and Pr(P=p) were both normal distributions with different mean and variance values. Now we can arbitrarily pick Pr(P) so, while, we can't make both Pr(P=p|H=h, T=t) and Pr(P=p) both normal we can often make it so they are the same distribution. In our case, we choose Pr(P=p) to be a Beta distribution. A Beta distributions domain is [0,1], making it a plausibly distribution for probabilities, and it has 2 parameters, alpha and beta:
 
