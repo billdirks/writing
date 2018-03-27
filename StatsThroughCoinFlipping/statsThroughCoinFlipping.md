@@ -96,6 +96,8 @@ Hopefully this coin flipping example has helped make the following statistical t
 * posterior distribution
 * conjugate prior
 
+# Notes
+
 [1] All the randomness comes from our experiment, that is the actual values of each flip. To answer questions about our certainty of our estimate of *p* we then resort to confidence intervals and thought experiments about what would happen if we ran the 10 flip experiment over and over again.
 
 [2] This is derived from
@@ -112,7 +114,6 @@ Setting both right hand sides to each other we see:
 
 Pr(A) Pr(B|A) = Pr(B) Pr(A|B) => Pr(A|B) = Pr(A) Pr(B|A) / Pr(B)
 
-
 [3]  Gamma is defined to be an integral, but for an integer argument it evaluates to a factorial. That is if *i* is an integer:
 
 \Gamma(i) = (i-1)!
@@ -123,5 +124,6 @@ In general:
 
 See: https://en.wikipedia.org/wiki/Gamma_function
 
-Reference:
+# Reference
+
 Wikpedia fair coin writeup: https://en.wikipedia.org/wiki/Checking_whether_a_coin_is_fair
