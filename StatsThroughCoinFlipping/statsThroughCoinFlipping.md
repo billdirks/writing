@@ -1,4 +1,4 @@
-# Statisics through coin flipping
+# Statistics through coin flipping
 
 The goal of this article is to define some commonly used statistics terminology using an example of a coin flip.
 
